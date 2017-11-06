@@ -1,3 +1,35 @@
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+
 <h1>Azure Training</h1>
 <p>Hi, this is prathamesh. Today is my first day Training.</p>
-<p>I am <img src="king.jpg" alt="King" style="width:128px;height:128px;"> of the world</p>
+<p><font size="10">I am </font><img src="king.jpg" alt="King" style="width:128px;height:128px;"><font size="10">of the world</font></p>
+<div></div>
